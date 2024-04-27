@@ -34,7 +34,7 @@
             TasaInteres = new Label();
             textBoxTasaInt = new TextBox();
             labelPeriodo = new Label();
-            textBox1 = new TextBox();
+            textBoxPeriodo = new TextBox();
             labelTotal = new Label();
             buttonCalcular = new Button();
             SuspendLayout();
@@ -93,12 +93,12 @@
             labelPeriodo.TabIndex = 5;
             labelPeriodo.Text = "Ingresar el periodo de inversión (años)";
             // 
-            // textBox1
+            // textBoxPeriodo
             // 
-            textBox1.Location = new Point(298, 275);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(174, 27);
-            textBox1.TabIndex = 6;
+            textBoxPeriodo.Location = new Point(298, 275);
+            textBoxPeriodo.Name = "textBoxPeriodo";
+            textBoxPeriodo.Size = new Size(174, 27);
+            textBoxPeriodo.TabIndex = 6;
             // 
             // labelTotal
             // 
@@ -131,7 +131,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(buttonCalcular);
             Controls.Add(labelTotal);
-            Controls.Add(textBox1);
+            Controls.Add(textBoxPeriodo);
             Controls.Add(labelPeriodo);
             Controls.Add(textBoxTasaInt);
             Controls.Add(TasaInteres);
@@ -152,7 +152,7 @@
         private Label TasaInteres;
         private TextBox textBoxTasaInt;
         private Label labelPeriodo;
-        private TextBox textBox1;
+        private TextBox textBoxPeriodo;
         private Label labelTotal;
         private Button buttonCalcular;
     }
